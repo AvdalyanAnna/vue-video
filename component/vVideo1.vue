@@ -21,7 +21,7 @@ export default {
       console.log(scrollY + (innerHeight / 2), offsetTop)
 
       if(scrollY + (innerHeight / 2) >  offsetTop){
-        console.log('show')
+        console.log('show1')
         // alert(2)
         this.playVideo()
       }
@@ -40,7 +40,7 @@ export default {
 <template>
   <div>
     <div class="video">
-      <video ref="video" width="320" height="240" muted loop>
+      <video ref="video" width="320" height="240" muted loop playsinline>
         <source src="/video/1.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
