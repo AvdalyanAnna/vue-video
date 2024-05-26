@@ -68,7 +68,7 @@ export default {
 <style>
 
 .video{
-  width: 800px;
+  max-width: 800px;
   height: 450px;
 //position: relative;
   margin: 0 auto;
@@ -79,7 +79,7 @@ export default {
 }
 
 .controls{
-  width: 800px;
+  max-width: 800px;
   height: 450px;
   position: relative;
   z-index: 9;
