@@ -103,4 +103,14 @@ export default {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 600px) {
+  .controls,
+  .video{
+    height: 200px;
+  }
+  .controls{
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
 </style>

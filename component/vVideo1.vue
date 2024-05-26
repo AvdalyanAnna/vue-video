@@ -71,7 +71,9 @@ export default {
   height: 450px;
 //position: relative;
   margin: 0 auto;
+
 }
+
 .video video{
   width: 100%;
   height: 100%;
@@ -101,5 +103,15 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .controls,
+  .video{
+    height: 200px;
+  }
+  .controls{
+    margin-left: 0;
+    margin-right: 20px;
+  }
 }
 </style>
